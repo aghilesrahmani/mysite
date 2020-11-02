@@ -1,0 +1,58 @@
+.header{
+    height: 450px;
+    width: 100%;
+    font-family: 'Nunito';
+    background-color: black;
+    position: relative;
+}
+.body{
+    font-family: 'Nunito';
+}
+
+.header_texture{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0; left: 0;
+    background: url(./img/austin-distel-mpN7xjKQ_Ns-unsplash.jpg) center no-repeat;
+    background-size: cover;
+    z-index: 1;
+    opacity: 0.3;
+}
+
+.header_mask{
+    position: absolute;
+    bottom: 0;
+    background: 0 0;
+    height: 42px;
+    width: 100%;
+    z-index: 10;
+}
+.header_navbar{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    position: relative;
+    z-index: 999;
+}
+
+.header_navbar_logo_title{
+    color: white;
+    font-size: 28px;
+}
+
+.header_navbar_menu_link{
+    
+    margin-left: 40px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
