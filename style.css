@@ -16,10 +16,10 @@
     position: absolute;
     top: 0; left: 0;
     background: url(./img/austin-distel-mpN7xjKQ_Ns-unsplash.jpg) center no-repeat;
+    background-image: url(./img/daria-nepriakhina-zoCDWPuiRuA-unsplash.jpg) center no-repeat;
     background-size: cover;
     z-index: 1;
     opacity: 0.3;
-    
 }
 
 .header_mask{
@@ -59,3 +59,17 @@
     text-decoration: none;
     font-size: 20px;
 }
+
+.header_slogan{
+    text-align: center;
+    margin: 240px auto;
+    color: white;
+    font-family: 'Anton';
+}
+
+.h_slogan--btn{
+color: white;
+font-family: 'Source Code Pro', monospace;
+text-decoration: none;
+}
+
