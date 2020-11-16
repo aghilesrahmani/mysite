@@ -16,7 +16,6 @@
     position: absolute;
     top: 0; left: 0;
     background: url(./img/austin-distel-mpN7xjKQ_Ns-unsplash.jpg) center no-repeat;
-    background-image: url(./img/daria-nepriakhina-zoCDWPuiRuA-unsplash.jpg) center no-repeat;
     background-size: cover;
     z-index: 1;
     opacity: 0.3;
@@ -100,7 +99,7 @@ opacity: 0.6;
 .header_navbar--toggle-icons:after{top: -14px;}
 
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 50%){
     .header_navbar--toggle{
         display: flex;
         z-index: 1000;
